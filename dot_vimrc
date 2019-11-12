@@ -1,0 +1,18 @@
+call plug#begin('~/.vim/plugged')
+
+Plug 'chriskempson/base16-vim'
+
+call plug#end()
+
+" Editor Settings
+set autoindent
+set tabstop=4
+colorscheme base16-outrun-dark
+hi Normal guibg=NONE ctermbg=NONE
+
+" Keybindings
+noremap ; l
+noremap l k
+noremap k j
+noremap j h
+inoremap jj <Esc>
