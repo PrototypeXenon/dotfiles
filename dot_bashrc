@@ -1,0 +1,17 @@
+source <(kitty + complete setup bash)
+export EDITOR=vim
+
+alias ls='ls -laF --color=auto'
+alias vialias='vim /etc/bash.bashrc && source /etc/bash.bashrc'
+alias ..='cd ..'
+alias fhere='find . -name'
+alias df='df -Tha --total'
+alias du='du -ach | sort -h'
+alias free='free -mt'
+alias ps='ps auxf'
+alias psg='ps aux | grep -v grep | grep -i -e VSZ -e'
+alias mkdir='mkdir -pv'
+alias wget='wget -c'
+alias histg='history | grep'
+alias gotop='gotop -b'
+alias please='sudo'
