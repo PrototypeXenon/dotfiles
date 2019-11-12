@@ -2,7 +2,7 @@ source <(kitty + complete setup bash)
 export EDITOR=vim
 
 alias ls='ls -laF --color=auto'
-alias vialias='vim /etc/bash.bashrc && source /etc/bash.bashrc'
+alias vibash='vim ~/.bashrc && source ~/.bashrc'
 alias ..='cd ..'
 alias fhere='find . -name'
 alias df='df -Tha --total'
@@ -14,5 +14,4 @@ alias mkdir='mkdir -pv'
 alias wget='wget -c'
 alias histg='history | grep'
 alias gotop='gotop -b'
-alias gpush='git push -u origin master'
 alias please='sudo'
