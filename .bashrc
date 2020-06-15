@@ -1,8 +1,6 @@
 source <(kitty + complete setup bash)
 export EDITOR=vim
 
-export PATH=$PATH:/home/klercke/.cargo/bin
-
 alias ls='ls -laF --color=auto'
 alias vibash='vim ~/.bashrc && source ~/.bashrc'
 alias ..='cd ..'
@@ -21,6 +19,7 @@ alias spotd='sudo spotifyd --config-path /home/klercke/.config/spotifyd/spotifyd
 alias fetchloop='while true; do neofetch; sleep 60; done'
 alias lock="i3lock -n -i ~/wallpaper.png"
 alias hack="tree /"
+alias mycourses="firefox $(yq read ~/university/current-course/info.yaml url)"
 
 shopt -s extglob
 
